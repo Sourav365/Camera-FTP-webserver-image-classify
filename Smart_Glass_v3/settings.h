@@ -53,10 +53,6 @@ String sd_path = "";  //"/32cam";
 const char* host = "xyz.000webhostapp.com";
 
 
-//USE TOUCHPINs IF SD CARD IS NOT IN USE
-#define click T5  //Touchpin-5
-#define touchPin2 T6
-int touch_threshold = 25;
 
 String object[5]={};
 float value[5]={};

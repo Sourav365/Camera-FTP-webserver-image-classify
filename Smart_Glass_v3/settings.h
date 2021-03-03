@@ -35,11 +35,11 @@ const char* password = "12345678";
 /*_________________MODEL API______________________*/
 // Generic model
 String model_id = "aaa03c23b3724a16a56b629203edc62c"; 
-String app_key = "891e0781c55e4175920094840204a5dc";
+String app_key = "key";
 
 //Text recog.
 //String model_id = "9fe78b4150a52794f86f237770141b33";  
-//String app_key = "386b01887f93444696eff01fd86cdb8a" ;
+//String app_key = "key" ;
 
 
 /*_____________________EEPROM Setting___________________________*/
@@ -50,7 +50,7 @@ String app_key = "891e0781c55e4175920094840204a5dc";
 
 /*_____________________Other Setting___________________________*/
 String sd_path = "";  //"/32cam";
-const char* host = "esp-32-cam.000webhostapp.com";
+const char* host = "xyz.000webhostapp.com";
 
 
 //USE TOUCHPINs IF SD CARD IS NOT IN USE

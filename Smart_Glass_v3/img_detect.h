@@ -12,7 +12,7 @@ void classifyImage(camera_fb_t *fb) {
   HTTPClient http;
   http.begin("https://api.clarifai.com/v2/models/" + model_id + "/outputs");
   http.addHeader("Content-Type", "application/json");     
-  http.addHeader("Authorization", ("Key " + app_key)); //891e0781c55e4175920094840204a5dc"); 
+  http.addHeader("Authorization", ("Key " + app_key));  
   int response_code = http.POST(payload);
   
   if(response_code>0){

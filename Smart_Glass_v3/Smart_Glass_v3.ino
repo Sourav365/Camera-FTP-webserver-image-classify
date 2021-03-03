@@ -6,7 +6,7 @@
 #include "img_capture.h"
 
 // Tasks define
-TaskHandle_t FtpTask; //CameraTask, AviWriterTask, 
+TaskHandle_t FtpTask; 
 
 void codeForFtpTask( void * parameter )
 {
